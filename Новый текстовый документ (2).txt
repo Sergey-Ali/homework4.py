@@ -1,0 +1,17 @@
+tuple_ = 1,2,'a','b'
+immutable_war = tuple_
+print(tuple_)
+print(type(immutable_war))
+#tuple_[3] = 100
+print(tuple_)
+mutable_list=[1,2,'a','b','Modified']
+print(mutable_list[3])
+mutable_list[3] = 'c'
+print(mutable_list)
+
+C:\Users\admin\PycharmProjects\pythonProject4\.venv\Scripts\python.exe C:\Users\admin\PycharmProjects\pythonProject4\Homeworks\homework4.py 
+(1, 2, 'a', 'b')
+<class 'tuple'>
+(1, 2, 'a', 'b')
+b
+[1, 2, 'a', 'c', 'Modified']
